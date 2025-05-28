@@ -48,85 +48,107 @@
   </nav>
 
   <section id="blog-home" class="mt-5 pt-5 container">
-    <h2 class="font-weight-bold mt-5">Blogs</h2>
+    <h2 class="font-weight-bold mt-5">Shopping Cart</h2>
     <hr>
   </section>
 
-  <section id="blog-container" class="container pt-5">
+  <section id="cart-container" class="container my-5">
+    <table class="w-100">
+      <thead>
+        <tr>
+          <td>Remove</td>
+          <td>Image</td>
+          <td>Product</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Total</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="img/shoes/1.jpg" alt=""></td>
+          <td>
+            <h5>Handbag Fringilla</h5>
+          </td>
+          <td>
+            <h5>$65.00</h5>
+          </td>
+          <td><input type="number" class="w-25 pl-1" value="1"></td>
+          <td>
+            <h5>$130.00</h5>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="img/shoes/2.jpg" alt=""></td>
+          <td>
+            <h5>Handbag Fringilla</h5>
+          </td>
+          <td>
+            <h5>$65.00</h5>
+          </td>
+          <td><input type="number" class="w-25 pl-1" value="1"></td>
+          <td>
+            <h5>$130.00</h5>
+          </td>
+        </tr>
+        <tr>
+          <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+          <td><img src="img/shoes/3.jpg" alt=""></td>
+          <td>
+            <h5>Handbag Fringilla</h5>
+          </td>
+          <td>
+            <h5>$65.00</h5>
+          </td>
+          <td><input type="number" class="w-25 pl-1" value="1"></td>
+          <td>
+            <h5>$130.00</h5>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="card-bottom" class="container">
     <div class="row">
-        <div class="post col-12 col-md-6 col-lg-6 pb-5">
-            <div class="post-img">
-                <img src="img/blog/1.jpg" class="img-fluid w-100" alt="">
-            </div>
-            <h3  class="font-weight-normal text-center pt-3">
-                The best ways to  channge your summer wardrobe into autumn wardrobe.
-            </h3>
-            <p class="text-center">Jan 11, 2021</p>
+      <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+        <div>
+          <h5>COUPON</h5>
+          <p>Enter your coupon code here if you have one.</p>
+          <input type="text" placeholder="Coupon code">
+          <button>APPLY COUPON</button>
         </div>
-        <div class="post col-12 col-md-6 col-lg-6 pb-5">
-            <div class="post-img">
-                <img src="img/blog/2.jpg" class="img-fluid w-100" alt="">
-            </div>
-            <h3  class="font-weight-normal text-center pt-3">
-                Mens fashion in leather.
-            </h3>
-            <p class="text-center">Jan 11, 2021</p>
+      </div>
+      <div class="total col-lg-6 col-md-6 col-12">
+        <div>
+          <h5>Cart Total</h5>
+          <div class="d-flex justify-content-center"> 
+            <h6>Subtotal</h6>
+            <p>$215.00</p>
+          </div>
+          <div class="d-flex justify-content-center">
+            <h6>Shipping</h6>
+            <p>$215.00</p>
+          </div>
+          <hr class="second-hr">
+          <div class="d-flex justify-content-center">
+            <h6>Total</h6>
+            <p>$215.00</p>
+          </div>
+          <button class="ml-auto">PROCEED TO CHECKOUT</button>
         </div>
-        <div class="post col-12 col-md-6 col-lg-6 pb-5">
-            <div class="post-img">
-                <img src="img/blog/3.jpg" class="img-fluid w-100" alt="">
-            </div>
-            <h3  class="font-weight-normal text-center pt-3">
-                DIYer and TV Host Trisha HershBegrger's journey through gaming keeps evolving.
-            </h3>
-            <p class="text-center">Jan 11, 2021</p>
-        </div>
-        <div class="post col-12 col-md-6 col-lg-6 pb-5">
-            <div class="post-img">
-                <img src="img/blog/4.jpg" class="img-fluid w-100" alt="">
-            </div>
-            <h3  class="font-weight-normal text-center pt-3">
-                The best way to channge your summer wardrobe into autumn wardrobe.
-            </h3>
-            <p class="text-center">Jan 11, 2021</p>
-        </div>
-        <div class="col-12 col-md-12 col-lg-12 pb-5">
-            <div class="post-img">
-                <img src="img/blog/banner.webp" class="img-fluid w-100" alt="">
-            </div>
-        </div>
-        <div class="post col-12 col-md-6 col-lg-4 pb-5">
-            <div class="post-img">
-                <img src="img/blog/1.webp" class="img-fluid w-100" alt="">
-            </div>
-            <h4  class="font-weight-normal pt-3">
-                DIYer and TV Host Trisha HershBegrger's journey through gaming keeps evolving.
-            </h4>
-        </div>
-        <div class="post col-12 col-md-6 col-lg-4 pb-5">
-            <div class="post-img">
-                <img src="img/blog/3.webp" class="img-fluid w-100" alt="">
-            </div>
-            <h4  class="font-weight-normal pt-3">
-                Lenovo's smarter devices stoke professional passions. 
-            </h4>
-        </div>
-        <div class="post col-12 col-md-6 col-lg-4 pb-5">
-            <div class="post-img">
-                <img src="img/blog/2.webp" class="img-fluid w-100" alt="">
-            </div>
-            <h4  class="font-weight-normal pt-3">
-                Take a 3D tour through a Microsoft datacenter.
-            </h4>
-        </div>
+      </div>
     </div>
   </section>
-  
+
   <footer class="mt-5 py-5">
     <div class="row container mx-auto pt-5">
       <div class="footer-one col-lg-3 col-md-6 col-12">
         <img src="img/logo2.png" alt="logo2_img">
-        <p class="pt-3">Fringilla urna porttitor rhoncus dolor purus luctus venenatis lectus magna fringilla diam maecenus ultricies
+        <p class="pt-3">Fringilla urna porttitor rhoncus dolor purus luctus venenatis lectus magna fringilla diam
+          maecenus ultricies
           mi eget mauris.</p>
       </div>
 
@@ -183,7 +205,7 @@
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        </div>  
+        </div>
       </div>
     </div>
   </footer>
@@ -196,4 +218,5 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
